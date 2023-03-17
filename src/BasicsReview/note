@@ -1,0 +1,32 @@
+
+1- Xpath [ Relative/Absolute]
+//tagName[@attributeName='value']
+//tagName[text()='innerText']
+//tagName[contains(@AttributeName/text(), 'attributeValue/InnerText')]
+
+Talk about absolute path and Relative path with more examples
+
+<tagname attribute="value"/>
+<tagname attribute="value">Inner Text </attribute="value"
+<tagname attribute="value">Inner Text ></attribute="value"
+
+can have multiple attribute values.
+values always be in " " double quote.
+we can have an attribute with out value too.
+
+for name and id attributes always one value
+for class attribute can have multiple values and separated by space
+
+id one value always unique if we found two html code with same it is a bug should be reported
+name one value 99% unique
+class multiple values and usually duplicate
+
+if we have id in a code should always go with id then name then class
+
+linkedtext : not an attributes related to the text used with anker tag or a tag
+partiallinkedtext : not an attributes related to the text
+
+Xpath
+Css
+
+
